@@ -1,0 +1,22 @@
+.Button3{
+    border-style: solid;
+    border-color: chocolate;
+    width:100px;
+    height:27px;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 22px;
+    cursor:pointer;
+    padding: 7px 10px;
+    transition: all .3s;
+    background-color: floralwhite;
+}
+
+.Button3:hover{
+    color: #1313e0;
+    background-color: beige;
+    transform: translateX(10%);
+}

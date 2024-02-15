@@ -1,5 +1,5 @@
 import React from "react"
-import Button from "../../components/button/button.js"
+import Button from "../../components/button/button/Button1/Button.js"
 export default function Home(){
     return (
         <div>

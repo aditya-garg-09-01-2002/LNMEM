@@ -1,0 +1,19 @@
+.button2{
+    border-style: solid;
+    border-color: black;
+    border-radius: 6rem;
+    width: 120px;
+    height: 26px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: aqua;
+    transition: background-color 1s;
+    transition: width 1s;
+    cursor:pointer;
+}
+
+.button2:hover{
+    background-color: beige;
+    width: 130px;
+}
