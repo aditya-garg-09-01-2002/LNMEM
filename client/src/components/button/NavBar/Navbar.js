@@ -3,6 +3,7 @@ import Button from "../button/Button1/Button";
 import Button2 from "../button/Button2/Button2";
 import Button3 from "../button/Button3/Button3";
 import "./Navbar.css"
+import logo from "../../../Images/LNMIIT_LOGO.png"
 
 function Navbar() {
     return (
@@ -10,7 +11,7 @@ function Navbar() {
             <nav className="main-nav">
                 {/* part 1 */}
                 <div className="logo">
-                    <img src="../../../Images/LNMIIT_LOGO.png" alt="Example" />
+                    <img src={logo} alt="Example" />
                 </div>
                 {/* part 2 */}
                 <div className="buttons">
