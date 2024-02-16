@@ -1,11 +1,10 @@
 import React from "react"
-import Button from "../../components/button/button/Button1/Button.js"
+import Navbar from "../../components/button/NavBar/Navbar"
+
 export default function Home(){
     return (
         <div>
-            <Button buttonName={"clickMe"} abcd={"askdnsak"}/>
-            <Button buttonName={"clickMe1"}/>
-            <Button buttonName={"clickMeajsdn"}/>
+            <Navbar />
         </div>
     )
 }

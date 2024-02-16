@@ -10,9 +10,9 @@
     font-style: italic;
     font-size: 22px;
     cursor:pointer;
-    padding: 7px 10px;
     transition: all .3s;
     background-color: floralwhite;
+    position: absolute;
 }
 
 .Button3:hover{
