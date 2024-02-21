@@ -1,0 +1,98 @@
+.main-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1b2430;
+    padding: 20px 20px;
+    font-family: 'Bree Serif', serif;
+    height: 4.12rem;
+    position: fixed;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#c1,#c2{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#c1 li,
+#c2 li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#c1 li a,
+#c2 li a{
+    font-size: 2vw;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    transition: 0.2s all ease;
+}
+#c1 li a:hover,
+#c2 li a:hover{
+    color: #17cf97;
+    text-decoration: underline;
+}
+
+.svg{
+    font-size: 6vw;
+    line-height: 5vw;
+}
+
+.icontag{
+    display: none;
+}
+
+@media screen and (max-width:838px){
+    #c1{
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 90px;
+        right : 0;
+        width: 8rem;
+        height: 100vh;
+        padding: 40px 0 0 10px;
+        background: #2a3239;
+        /* display: none; */
+    }
+    #c1 li{
+        margin-bottom: 25px;
+    }
+    #c2{
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        bottom: 0px;
+        right: 0;
+        padding: 40px 0 0 10px;
+        width: 8rem;
+        /* display: none; */
+    }
+    .icontag{
+        color: white;
+        display: block;
+        cursor: pointer;
+    }
+    .svg{
+        position: absolute;
+        left : 30px;
+    }
+    #c2 li{
+        margin-bottom: 25px;
+    }
+    #c1 li a{
+        font-size: 20px;
+    }
+    #c2 li a{
+        font-size: 20px;
+    }
+}
